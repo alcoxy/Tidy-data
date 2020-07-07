@@ -3,10 +3,6 @@ title: "Codebook"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 This document explains the variables and transformations performed for cleaning the data.
 
 # Data
@@ -15,13 +11,13 @@ The data is data collected from the accelerometers from the Samsung Galaxy S sma
 
 # Variables
 
-data_observations: observations from the accelerometers from the sansung galaxy S.
-data_labels: activities from which the observations were obtained.
-data_subjects: subjects from whiich the observations were obtained.
-features: lists of variable names in the observation data set from the messy data.
-activities: lists of activities names from the messy data.
-tidy_data: cleaned data.
-average_data: averages of each variable in tidy_data by Activity and Subjects.
+data_observations: observations from the accelerometers from the sansung galaxy S.\\
+data_labels: activities from which the observations were obtained.\\
+data_subjects: subjects from whiich the observations were obtained.\\
+features: lists of variable names in the observation data set from the messy data.\\
+activities: lists of activities names from the messy data.\\
+tidy_data: cleaned data.\\
+average_data: averages of each variable in tidy_data by Activity and Subjects.\\
 
 # Transformations
 
